@@ -55,8 +55,6 @@ eval "$(pyenv virtualenv-init -)"
 
 ```
     $ pip install pybluez pybluez[ble]
-
-    $ pyenv virtualenv 3.6.0 capstone-3.6.0
 ```
 
 At this point, you should now have a virtualenv set up with the minimum requirements. Ensure to capture any other necessary steps in this README.
