@@ -16,9 +16,12 @@ Follow these directions to set up the Python envrionment so multiple Pi's can be
 
 3. Add the following to your `~/.bashrc` file:
 
-```export PATH="~/.pyenv/bin:$PATH"
+
+```
+export PATH="~/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"```
+eval "$(pyenv virtualenv-init -)"
+```
 
 4. Restart your shell:
 
