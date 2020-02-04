@@ -57,4 +57,10 @@ eval "$(pyenv virtualenv-init -)"
     $ pip install pybluez pybluez[ble]
 ```
 
+There are some cases where installing the gattlib library fails. To fix this, you will likely need to do the following to symlink the shared object file that is 'missing':
+
+```
+$ cd /usr/lib/arm-linux-gnueabihf
+$ sudo ln -s libboost_python3_py37.so libboost_python36.so
+
 At this point, you should now have a virtualenv set up with the minimum requirements. Ensure to capture any other necessary steps in this README.
